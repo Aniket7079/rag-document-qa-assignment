@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.DS_Store
+.streamlit/secrets.toml
+storage/index.faiss
+storage/metadata.json
+storage/config.json
