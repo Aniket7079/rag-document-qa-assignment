@@ -4,7 +4,7 @@ from pathlib import Path
 
 import streamlit as st 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent 
 sys.path.insert(0, str(ROOT))
 
 from src.config import DATA_DIR, STORAGE_DIR, settings
