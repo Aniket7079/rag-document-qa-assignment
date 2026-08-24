@@ -2,7 +2,7 @@ import os
 import sys
 from pathlib import Path 
 
-import streamlit as st  
+import streamlit as st
 
 ROOT = Path(__file__).resolve().parent 
 sys.path.insert(0, str(ROOT))
